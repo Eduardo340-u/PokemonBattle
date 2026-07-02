@@ -13,17 +13,25 @@ MonoBehaviour:
   m_Name: ToxtricityData
   m_EditorClassIdentifier: Assembly-CSharp::FighterData
   maxHealth: 200
-  name: Toxtricity
+  Fightername: 
   attacks:
   - name: Attack1
     animationName: Sobrecarga
-    minDamage: 65
-    maxDamge: 80
+    minDamage: 25
+    attackSoundName: 
+    maxDamage: 40
     chargeParticles: {fileID: 530396920020211765, guid: ef727cd2fa12bc14bb986cc116d96e4b, type: 3}
     attackParticles: {fileID: 9135587073783778917, guid: 6d9e2823c92acf84fb8e66e0f1aba228, type: 3}
   - name: Attack2
     animationName: Bomba lodo
-    minDamage: 80
-    maxDamge: 100
+    minDamage: 50
+    attackSoundName: 
+    maxDamage: 70
     chargeParticles: {fileID: 4881785045421444171, guid: 7465cd0c0f5c87d48b596dabcf5b3dd9, type: 3}
     attackParticles: {fileID: 6051521705413390260, guid: fe0a29635adc58943981a559c3df721f, type: 3}
+  chargeTime: 2
+  apperParticles: {fileID: 4881785045421444171, guid: 7465cd0c0f5c87d48b596dabcf5b3dd9, type: 3}
+  apperSoundName: 
+  attackSoundName: 
+  damageSoundName: 
+  deadSoundName: 

@@ -13,17 +13,25 @@ MonoBehaviour:
   m_Name: MarshadowData
   m_EditorClassIdentifier: Assembly-CSharp::FighterData
   maxHealth: 200
-  name: Marshadow
+  Fightername: 
   attacks:
   - name: Robrasombra
     animationName: Attack1
-    minDamage: 40
-    maxDamge: 90
+    minDamage: 25
+    attackSoundName: 
+    maxDamage: 50
     chargeParticles: {fileID: 7089359753542985832, guid: 955b765065b570345a8711f6ab2dd01c, type: 3}
     attackParticles: {fileID: 1342158979416752699, guid: f7f5b819976bc8145afd0b39aaeda6c2, type: 3}
   - name: A bocajarro
     animationName: Attack2
-    minDamage: 70
-    maxDamge: 110
+    minDamage: 35
+    attackSoundName: 
+    maxDamage: 70
     chargeParticles: {fileID: 5818495061330468468, guid: bbceb30fd61ec5041a8c8f46513b0092, type: 3}
     attackParticles: {fileID: 7335802503238778689, guid: b733cd7e77cbe7e40bd49d7993cb601d, type: 3}
+  chargeTime: 2
+  apperParticles: {fileID: 7089359753542985832, guid: 955b765065b570345a8711f6ab2dd01c, type: 3}
+  apperSoundName: 
+  attackSoundName: 
+  damageSoundName: 
+  deadSoundName: 
