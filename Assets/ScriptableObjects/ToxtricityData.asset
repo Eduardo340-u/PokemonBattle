@@ -30,8 +30,8 @@ MonoBehaviour:
     chargeParticles: {fileID: 4881785045421444171, guid: 7465cd0c0f5c87d48b596dabcf5b3dd9, type: 3}
     attackParticles: {fileID: 6051521705413390260, guid: fe0a29635adc58943981a559c3df721f, type: 3}
   chargeTime: 2
-  apperParticles: {fileID: 4881785045421444171, guid: 7465cd0c0f5c87d48b596dabcf5b3dd9, type: 3}
-  apperSoundName: 
+  appearParticles: {fileID: 4881785045421444171, guid: 7465cd0c0f5c87d48b596dabcf5b3dd9, type: 3}
+  appearSoundName: 
   attackSoundName: 
   damageSoundName: 
   deadSoundName: 
