@@ -1,5 +1,5 @@
 using UnityEngine;
-
+ 
 public class Fighter : MonoBehaviour
 {
     [SerializeField]
@@ -13,7 +13,7 @@ public class Fighter : MonoBehaviour
     public FighterData FighterData => fighterData;
     private void Awake()
     {
-        health.Maxhealth = fighterData.maxHealth;
+        health.MaxHealth = fighterData.maxHealth;
     }
     public void TakeDamage()
     {

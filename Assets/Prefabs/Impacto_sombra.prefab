@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5075236870258406055}
   - component: {fileID: 5893354697155107407}
   - component: {fileID: 6591392611587909610}
+  - component: {fileID: 8510088954630426560}
   m_Layer: 0
   m_Name: Impacto_sombra
   m_TagString: Untagged
@@ -4770,7 +4771,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9205bc1bbacc90040a998067b5643d16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clearBehavior: 2
+  clearBehavior: 1
   cameraShake:
     enabled: 0
     useMainCamera: 1
@@ -4930,6 +4931,19 @@ MonoBehaviour:
     perlinColor: 0
     perlinColorSpeed: 1
   fadeOutReference: {fileID: 0}
+--- !u!114 &8510088954630426560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1342158979416752699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8799e689c541a7e44abb20fb8e10c141, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DestroyInSeconds
+  secondsToDestroy: 2
 --- !u!1 &4111567631320889007
 GameObject:
   m_ObjectHideFlags: 0

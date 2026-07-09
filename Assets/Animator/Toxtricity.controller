@@ -216,25 +216,25 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -3410538883617026311}
-    m_Position: {x: 680, y: 100, z: 0}
+    m_Position: {x: 640, y: -20, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 2698442586544710177}
-    m_Position: {x: 890, y: 100, z: 0}
+    m_Position: {x: 840, y: 60, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -3780249407194590807}
-    m_Position: {x: 680, y: 150, z: 0}
+    m_Position: {x: 630, y: 30, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 2736283236954665153}
-    m_Position: {x: 890, y: 150, z: 0}
+    m_Position: {x: 860, y: 120, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -1290955405960143156}
-    m_Position: {x: 300, y: 110, z: 0}
+    m_Position: {x: 270, y: 110, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -3769632971762284595}
-    m_Position: {x: 680, y: 200, z: 0}
+    m_Position: {x: 620, y: 110, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -1655293964941406012}
-    m_Position: {x: 890, y: 200, z: 0}
+    m_Position: {x: 860, y: 180, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []

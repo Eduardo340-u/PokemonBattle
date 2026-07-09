@@ -4918,6 +4918,7 @@ GameObject:
   - component: {fileID: 6323809607990934386}
   - component: {fileID: 854753315450857797}
   - component: {fileID: 6409613301322624721}
+  - component: {fileID: 3081480583321351810}
   m_Layer: 0
   m_Name: Cargavoltio
   m_TagString: Untagged
@@ -9934,6 +9935,19 @@ MonoBehaviour:
     perlinColor: 0
     perlinColorSpeed: 1
   fadeOutReference: {fileID: 6323809607990934386}
+--- !u!114 &3081480583321351810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4881785045421444171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8799e689c541a7e44abb20fb8e10c141, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DestroyInSeconds
+  secondsToDestroy: 2
 --- !u!1 &5550022038928283696
 GameObject:
   m_ObjectHideFlags: 0

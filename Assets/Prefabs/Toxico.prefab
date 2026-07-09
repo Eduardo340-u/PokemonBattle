@@ -9824,6 +9824,7 @@ GameObject:
   - component: {fileID: 7548165252445304917}
   - component: {fileID: 4134305041251613747}
   - component: {fileID: 4251869088265521933}
+  - component: {fileID: 1793828063259050511}
   m_Layer: 0
   m_Name: Toxico
   m_TagString: Untagged
@@ -14553,7 +14554,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9205bc1bbacc90040a998067b5643d16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clearBehavior: 2
+  clearBehavior: 1
   cameraShake:
     enabled: 0
     useMainCamera: 1
@@ -14589,3 +14590,16 @@ MonoBehaviour:
     shakesDelay: 0
   animatedLights: []
   fadeOutReference: {fileID: 0}
+--- !u!114 &1793828063259050511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9135587073783778917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8799e689c541a7e44abb20fb8e10c141, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DestroyInSeconds
+  secondsToDestroy: 2

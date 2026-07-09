@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1948188736532245937}
   - component: {fileID: 877589740862437598}
   - component: {fileID: 7720259567523115420}
+  - component: {fileID: 7937364899969145634}
   m_Layer: 0
   m_Name: Bombalodo
   m_TagString: Untagged
@@ -4843,6 +4844,19 @@ MonoBehaviour:
     shakesDelay: 0
   animatedLights: []
   fadeOutReference: {fileID: 1948188736532245937}
+--- !u!114 &7937364899969145634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 530396920020211765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8799e689c541a7e44abb20fb8e10c141, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DestroyInSeconds
+  secondsToDestroy: 2
 --- !u!1 &3048971821237036331
 GameObject:
   m_ObjectHideFlags: 0

@@ -4918,6 +4918,7 @@ GameObject:
   - component: {fileID: 4785348719005841464}
   - component: {fileID: 951187808413745533}
   - component: {fileID: 3353000150679168334}
+  - component: {fileID: 5773403609707084235}
   m_Layer: 0
   m_Name: Voltio
   m_TagString: FxTemporaire
@@ -9817,6 +9818,19 @@ MonoBehaviour:
     perlinColor: 0
     perlinColorSpeed: 1
   fadeOutReference: {fileID: 0}
+--- !u!114 &5773403609707084235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6051521705413390260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8799e689c541a7e44abb20fb8e10c141, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DestroyInSeconds
+  secondsToDestroy: 2
 --- !u!1 &6221186656492445459
 GameObject:
   m_ObjectHideFlags: 0

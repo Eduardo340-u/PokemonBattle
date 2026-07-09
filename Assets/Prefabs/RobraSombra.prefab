@@ -5015,6 +5015,7 @@ GameObject:
   - component: {fileID: 4875393932160365254}
   - component: {fileID: 3525469105712382696}
   - component: {fileID: 1491280199738085986}
+  - component: {fileID: 4078843977318898249}
   m_Layer: 0
   m_Name: RobraSombra
   m_TagString: Untagged
@@ -9909,3 +9910,16 @@ MonoBehaviour:
     perlinColor: 1
     perlinColorSpeed: 3
   fadeOutReference: {fileID: 4875393932160365254}
+--- !u!114 &4078843977318898249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7089359753542985832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8799e689c541a7e44abb20fb8e10c141, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DestroyInSeconds
+  secondsToDestroy: 2

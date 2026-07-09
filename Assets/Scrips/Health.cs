@@ -9,7 +9,7 @@ public class Health : MonoBehaviour
     private float currentHealth;
     public float CurrentHealth => currentHealth;
     private float maxHealth;
-    public float Maxhealth { set { maxHealth = value; } }
+    public float MaxHealth { set { maxHealth = value; } }
 
     [SerializeField]
     private UnityEvent onReceiveDamage;
@@ -18,6 +18,7 @@ public class Health : MonoBehaviour
     public void InitializeHealth()
     {
         currentHealth = maxHealth;
+        UpdateBar();
     }
     private void UpdateBar()
     {
