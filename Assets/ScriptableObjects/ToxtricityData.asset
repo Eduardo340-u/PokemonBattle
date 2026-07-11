@@ -12,18 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad74dbc4ca96ab644931f1bea6d93273, type: 3}
   m_Name: ToxtricityData
   m_EditorClassIdentifier: Assembly-CSharp::FighterData
-  maxHealth: 200
+  maxHealth: 240
   fighterName: Toxtricity
   attacks:
-  - name: Attack1
-    animationName: Sobrecarga
+  - name: Suldge Bomb
+    animationName: Attack1
     attackSoundName: Ataque_1V
     minDamage: 25
     maxDamage: 40
     chargeParticles: {fileID: 530396920020211765, guid: ef727cd2fa12bc14bb986cc116d96e4b, type: 3}
     attackParticles: {fileID: 9135587073783778917, guid: 6d9e2823c92acf84fb8e66e0f1aba228, type: 3}
-  - name: Attack2
-    animationName: Bomba lodo
+  - name: Overload
+    animationName: Attack2
     attackSoundName: Ataque_2V
     minDamage: 50
     maxDamage: 70
